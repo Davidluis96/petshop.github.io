@@ -1,0 +1,88 @@
+#regresar{
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px #FFCEAB;
+    color: #F34B50;
+}
+.row{
+    display: flex;
+    column-gap: 2%;
+    
+}
+.col-md-4{
+    width: 23.5%;
+    text-align: center;
+    box-shadow: 0px 2px 8px #777;
+    padding: 10px;
+}
+.col-md-4 > img{
+    border-radius: 10%;
+    width: 15vw;
+    height: 32vh;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.col-md-4 > img:hover{
+    transform: scaleX(-1);
+}
+.col-md-4 > button{
+  background-color: #202020;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+h3{
+    font-size: 1.8em;
+    display: flex;
+    margin-bottom: 0.6em;
+}
+h3 > span{
+    padding: 0 15px;
+}
+b{
+    align-self: center;
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+
+/* pestañas */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
