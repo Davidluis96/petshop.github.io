@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home petShop</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="./js/home.js" type="module" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./images/pawprint-logo.png" alt="logo">
+            <ul>
+                <li><a id="enlace-modal" href="#" title="">Quienes Somos</a></li>
+                <li><a href="#categorias" title="">Productos</a></li>
+                <li><a href="#servicios" title="">Servicios</a></li>
+                <li><a href="#contactanos" title="">Contáctanos</a></li>
+                <li><a id="item-trabajo" href="empleo.html" title="">Trabaja con Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="fondo-seccion">
+            <img src="./images/Desktop.png" alt="">
+        </div>
+        <div id="imagenes">
+            <img id ="salchicha" class="imagen-animales" src="./images/salchicha-pequeno.jpg" alt="" width="50" height="50">
+            <img class="imagen-animales" src="./images/gato-sentado.jpg" alt="" width="50" height="50">
+            <img class="imagen-animales" src="./images/gato_con_collar.jpg" alt="" width="50" height="50">
+        </div>
+        <div id="modal">
+            <div>
+                <span><button id="boton-cerrar-modal">&#10005;</button></span>
+                <h5>¿Quienes Somos?</h5>
+                <b></b>
+                <p>Somos una empresa que contribuimos a crear un mundo mejor, ayudando a amar y proteger a sus mascotas. Basados en nuestro equipo de trabajo somos solidarios socialmente, brindando la mayor cantidad de trabajo posible, innovando constantemente y logrando un prestigio que nos haga perdurar en el tiempo. Invirtiendo e innovando en proyectos para ampliar la estructura y seguir creciendo en otras ciudades. Aportando y participando solidariamente para crear una comunidad inclusiva y el cuidado del medio ambiente.</p>
+            </div>
+        </div>
+        <div id="lema">
+            <h1>Una forma económica de cuidar tus mascotas</h1>
+            <p>Cuida a tus mascotas con alimentos de integrales, sin grasas ni sales añadidas</p>
+        </div>
+     
+        <h3><b></b><span id="categorias">Categorías</span><b></b></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><a id="comida-gatos" href="productos.html"><h2>Alimento Para Gatos</h2><b></b><img src="./images/Alimento-gato.jpg" width="300" height="300" alt=""><p>4 Artículos</p></a></div>
+                <div class="col-md-4"><a id="comida-perros" href="productos.html"><h2>Alimento Para Perros</h2><b></b><img src="./images/Alimento-perro.jpg" width="300" height="300" alt=""><p>4 Artículos</p></a></div>
+                <div class="col-md-4"><a id="accesorios" href="productos.html"><h2>Accesorios</h2><b></b><img src="./images/Accesorios.jpg" width="300" height="300" alt=""><p>4 Artículos</p></a></div>
+                <div class="col-md-4"><a id="medicamentos" href="productos.html"><h2>Medicamentos</h2><b></b><img src="./images/Medicamentos.png" width="300" height="300" alt=""><p>4 Artículos</p></a></div>
+            </div>
+        </div>
+        <h3><b></b><span id="servicios">Servicios</span><b></b></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"><h2>Paseadores</h2><b></b><img src="./images/paseadores.png" width="300" height="300" alt=""><p>Paseo seguro para tu mascota con uno de nuestros paseadores</p></div>
+                <div class="col-md-3"><h2>Peluquería</h2><b></b><img src="./images/peluqueria.jpg" width="300" height="300" alt=""><p>Nos encargamos de sacar el mejor estilo de tu mascota</p></div>
+                <div class="col-md-3"><h2>Seguros</h2><b></b><img src="./images/Seguros.jpg" width="300" height="300" alt=""><p>Conoce los planes que tenemos para acompañarte y cuidar a tu mascota</p></div>
+            </div>
+        </div>
+            
+    </main>
+    <footer>
+        <div class="fondo-seccion">
+            <img id="fondo-footer" src="./images/Desktop.png" alt="">
+            <div class="container-footer">
+                <div class="row-footer">
+                    <div class="col-md-3-footer"><h4 id="contactanos">Contacto</h4>
+                        <b></b>
+                        <p>Avenida Nutibara, Tv. 39 #75-24 b</p>
+                        <p>Medellín - Antioquia</p>
+                        <p>Télefono - 283 93 25</p>
+                        <p>petshop@mascotas.com</p>
+                    </div>
+                    <div class="col-md-3-footer column-special">
+                        <h4>Ubicación</h4>
+                        <iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Tv.%2039%2075%20-%2024%20B,%20Medell%C3%ADn,%20Laureles,&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>    
+                    <div class="col-md-3-footer">
+                        <h4>Marcas</h4>
+                        <b></b>
+                        <p>Cat Chow</p>
+                        <p>Chunky</p>
+                        <p>Nuggets</p>
+                        <p>Dog Chow</p>
+                        <p>Vet Life</p>
+                    </div>
+                </div>
+                <p>Todos los derechos reservados &copy 2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
